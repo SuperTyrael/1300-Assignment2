@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive redesign</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light stricky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/brown-logo-cp.png" style="width: 50px"></a>
+            <a class="navbar-brand" href="#">Zaslavsky Lab</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-tartget="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto justify-content-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">People</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/banner_brown.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Zaslavsky Lab</h1>
+                    <h3>Center for Computational Biology</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/banner_brown.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/banner_brown.jpg">
+            </div>
+        </div>
+    </div>
+    <div id="content-container" class="container-fluid padding mt-5">
+        <div class="row main-content mx-auto">
+            <!-- Introduction -->
+            <div id="introduction" class="col-xs-12 col-sm-12 col-lg-7 col-xl-6 padding mr-auto">
+                <div id="card" class="row padding">
+                    <div id="intro" class="col-md-12 col-lg-6 my-auto">
+                        <h1>Introduction</h1>
+                        <p>Welcome to the Laboratory of Prof. Alex Zaslavsky in the Brown School of Engineering, working
+                            on semiconductor device physics and engineering.</p>
+                        <p>As silicon technology marches on towards ultimately scaled devices, we are pursuing
+                            alternative technologies based on eitherdifferent physical mechanisms (such as tunneling or
+                            hot-electron effects), different materials (Ge, III-V materials, amorphous conducting
+                            oxides), and different geometries(nanowires, quantum dots, ultrathin SOI) that could provide
+                            added functionality.</p>
+                        <p>Students graduating from the Zaslavsky laboratory -- our most significant product by far --
+                            are well-equipped for future semiconductor R&D by acquiring a full skill set, from device
+                            fabrication to characterization and modeling. They have moved on to a range of semiconductor
+                            companies (from Micron to Applied Materials, to GlobalFoundries, to Synopsys), government
+                            labs (from NIST to CNRS to Paul Scherrer Institute), and major industrial companies (EMC and
+                            Apple).</p>
+                        <br>
+                        <a href="#" class="btn btn-dark">Learn More</a>
+                    </div>
+                    <div class="col-lg-6" style="margin: 15px 0 15px;">
+                        <img src="./images/intro.png" class="img-fluid" style="border-radius: 20px; overflow:hidden;">
+                    </div>
+                </div>
+
+                <div class="row padding mt-4">
+                    <h2>Current Project</h2>
+                </div>
+
+                <div class="row padding">
+                    <div id="card-project" class="col-12 col-sm-3 mt-4">
+                        <div id="project-content">
+                            <div class="card-body">
+                                <h6 class="card-title>">Amorphous indium-zinc-oxide and copper-iodide devices</h6>
+                                <p>with Paine lab at Brown</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card-project" class="col-12 col-sm-3 ml-auto mt-4">
+                        <div id="project-content">
+                            <div class="card-body">
+                                <h6 class="card-title>">Amorphous indium-zinc-oxide and copper-iodide devices</h6>
+                                <p>with Paine lab at Brown</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card-project" class="col-12 col-sm-3 ml-auto mt-4">
+                        <div id="project-content">
+                            <div class="card-body">
+                                <h6 class="card-title>">Amorphous indium-zinc-oxide and copper-iodide devices</h6>
+                                <p>with Paine lab at Brown</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row padding">
+                    <div id="card-project" class="col-12 col-sm-3 mt-4">
+                        <div id="project-content">
+                            <div class="card-body">
+                                <h6 class="card-title>">Amorphous indium-zinc-oxide and copper-iodide
+                                    devices</h6>
+                                <p>with Paine lab at Brown</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card-project" class="col-12 col-sm-3 ml-auto mt-4">
+                        <div id="project-content">
+                            <div class="card-body">
+                                <h6 class="card-title>">Amorphous indium-zinc-oxide and copper-iodide
+                                    devices</h6>
+                                <p>with Paine lab at Brown</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card-project" class="col-12 col-sm-3 ml-auto mt-4">
+                        <div id="project-content">
+                            <div class="card-body">
+                                <h6 class="card-title>">Amorphous indium-zinc-oxide and copper-iodide
+                                    devices</h6>
+                                <p>with Paine lab at Brown</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- news -->
+            <div class="col-xs-12 col-sm-12 col-lg-3 col-xl-2 padding mr-auto order-lg-first">
+                <div class="col padding mt-4">
+                    <h2>News</h2>
+                </div>
+                <div class="row mt-4 justify-content-center text-center news-card bg-light p-4">
+                        <img class="news-card-img-top img-fluid" src="./images/news.png" style="height: 200px;">
+                        <div class="news-card-body">
+                            <h4 class="news-card-title">News 1</h4>
+                            <p class="news-card-text">
+                                A 2021 APL paper on capacitorless one-transistor cryomemory was chosen as an AIP
+                                Scilight.
+                            </p>
+                            <a href="#" class="btn btn-primary btn-sm btn-dark">Read more</a>
+                        </div>
+                </div>
+                <div class="row mt-4 justify-content-center text-center news-card bg-light p-4">
+                        <img class="news-card-img-top img-fluid" src="./images/news.png" style="height: 200px;">
+                        <div class="news-card-body">
+                            <h4 class="news-card-title">News 1</h4>
+                            <p class="news-card-text">
+                                A 2021 APL paper on capacitorless one-transistor cryomemory was chosen as an AIP
+                                Scilight.
+                            </p>
+                            <a href="#" class="btn btn-primary btn-sm btn-dark">Read more</a>
+                        </div>
+                </div>
+                <div class="row mt-4 justify-content-center text-center news-card bg-light p-4">
+                        <img class="news-card-img-top img-fluid" src="./images/news.png" style="height: 200px;">
+                        <div class="news-card-body">
+                            <h4 class="news-card-title">News 1</h4>
+                            <p class="news-card-text">
+                                A 2021 APL paper on capacitorless one-transistor cryomemory was chosen as an AIP
+                                Scilight.
+                            </p>
+                            <a href="#" class="btn btn-primary btn-sm btn-dark">Read more</a>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- right-side-info-bar -->
+            <div id="side-bar" class="col-xs-12 col-sm-12 col-xl-2 padding">
+                <aside class="text-left side-info">
+                    <div class="col side-info-item">
+                        <hr class="light">
+                        <h4>Contact</h4>
+                        <p>401-1863-1406</p>
+                        <p>alexander_zaslavsky@brown.edu</p>
+                        <p>182 Hope St.</p>
+                        <p>Providence, RI, 02912</p>
+                    </div>
+                    <div class="col side-info-item links">
+                        <hr class="light">
+                        <h4>Links</h4>
+                        <p><a href="https://www.brown.edu/academics/engineering/people/alexander-zaslavsky">Xu Lab</a>
+                        </p>
+                        <p><a href="https://www.brown.edu/academics/engineering/people/alexander-zaslavsky">Pacific
+                                Lab</a></p>
+                        <p><a href="https://www.brown.edu/academics/engineering/people/alexander-zaslavsky">Paine
+                                Lab</a></p>
+                        <p><a href="https://www.brown.edu/academics/engineering/people/alexander-zaslavsky">NIST</a></p>
+                    </div>
+                    <div class="col side-info-item links">
+                        <hr class="light">
+                        <h4>FAQs</h4>
+                        <p><a href="https://www.brown.edu/academics/engineering/people/alexander-zaslavsky">Recent
+                                Publication</a>
+                        </p>
+                        <p><a href="https://www.brown.edu/academics/engineering/people/alexander-zaslavsky">Github
+                                Repo</a></p>
+                        <p><a href="https://www.brown.edu/academics/engineering/people/alexander-zaslavsky">Lab
+                                Facilities
+                                Lab</a></p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Made in Providence.
+    </footer>
+</body>
+
+</html>
